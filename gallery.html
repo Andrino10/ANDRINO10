@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .grid-view {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .grid-view img {
+            width: 100%;
+            height: 300px; /* Set a fixed height */
+            object-fit: cover; /* Ensure the image scales and fits within the specified dimensions */
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .grid-view img:hover {
+            transform: scale(1.05);
+        }
+
+        .grid-view a {
+            display: block;
+            margin-top: 5px;
+            text-decoration: none;
+            color: blue;
+            text-align: center; /* Center the text */
+            font-weight: bold; /* Make the text bold */
+        }
+
+        .biodata {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .navigation a {
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        .header h1, .footer p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="registry.html">Registry</a>
+        <a href="profil.html">Profile</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="information.html">Information</a>
+    </div>
+
+    <div class="header">
+        <h1>GALLERY</h1>
+    </div>
+    <h2>ANGGOTA KELOMPOK 1</h2>
+    <div class="grid-view">
+        <div>
+            <img src="septa.jpg" alt="Gambar 1">
+            <a href="https://www.instagram.com/_septaprastyo/profilecard/?igsh=MTRqMXYzdThnbzhuaQ==">INSTAGRAM</a>
+            <div class="biodata">
+                <p><strong>Nama:</strong> Septa Prastyo</p>
+                <p><strong>Hobi:</strong> Bermain billiard dan nangis </p>
+                <p><strong>Kutipan Favorit:</strong> "Dingin tetapi tidak kejam."Alucard</p>
+            </div>
+        </div>
+        <div>
+            <img src="Dego.jpg" alt="Gambar 2">
+            <a href="https://www.instagram.com/ghoooo.hst/profilecard/?igsh=MWtxbGo4aGFnOTJ5dg==">INSTAGRAM</a>
+            <div class="biodata">
+                <p><strong>Nama:</strong> Thego adibah juanda</p>
+                <p><strong>Hobi:</strong> Menikmati pemandangan laut dan belajar</p>
+                <p><strong>Kutipan Favorit:</strong> "Lautan bukan sekedar rumah kita lautan adalah jati diri kita."Atlas</p>
+            </div>
+        </div>
+        <div>
+            <img src="riskii.jpg" alt="Gambar 3">
+            <a href="https://www.instagram.com/rzrmdh/profilecard/?igsh=MzdyMzJ5aXdpYzcx">INSTAGRAM</a>
+            <div class="biodata">
+                <p><strong>Nama:</strong> Rizki Ramadhan</p>
+                <p><strong>Hobi:</strong> Fotografi,jalan jalan </p>
+                <p><strong>Kutipan Favorit:</strong> "Aku adalah yin dan tidak akan berubah apapun yang terjadi."Yin</p>
+            </div>
+        </div>
+        <div>
+            <img src="andrino.jpg" alt="Gambar 4">
+            <a href="https://www.instagram.com/andrino_syaddanii/profilecard/?igsh=MTl1ZTQwbnJuZXN1ag==">INSTAGRAM</a>
+            <div class="biodata">
+                <p><strong>Nama:</strong> Andrino Syaddani</p>
+                <p><strong>Hobi:</strong> Membaca buku, ngoding, </p>
+                <p><strong>Kutipan Favorit:</strong> "Kau tahu, membawa 4 orang bodoh menuju kemenangan tidaklah mudah."Popol dan kupa"</p>
+            </div>
+        </div>
+        <div>
+            <img src="lutfi.jpg" alt="Gambar 5">
+            <a href="https://www.instagram.com/mluthfiadriann?igsh=ZmpsZnYwcXZyaXA1&utm_source=qr">INSTAGRAM</a>
+            <div class="biodata">
+                <p><strong>Nama:</strong> Muhammad Lutfi Adrian</p>
+                <p><strong>Hobi:</strong> Bermain futsal, efootbal 24jam</p>
+                <p><strong>Kutipan Favorit:</strong> "Apakah kamu mau bermain dengan lutpi."</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Website Informasi </p>
+    </div>
+</body>
+</html>

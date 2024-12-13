@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="registry.html">Registry</a>
+        <a href="profil.html">Profile</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="information.html">Information</a>
+    </div>
+
+    <div class="header">
+        <h1>Registry</h1>
+    </div>
+
+    <form>
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap Anda" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+        <label for="phone">Nomor Telepon:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon Anda" required>
+
+        <label for="gender">Jenis Kelamin:</label>
+        <select id="gender" name="gender" required>
+            <option value="" disabled selected>Pilih jenis kelamin</option>
+            <option value="male">Laki-laki</option>
+            <option value="female">Perempuan</option>
+        </select>
+
+        <label for="birthdate">Tanggal Lahir:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+
+        <label for="confirm-password">Konfirmasi Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Konfirmasi password" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <div class="footer">
+        <p>© 2024 Registry Form. All rights reserved.</p>
+    </div>
+</body>
+</html>
